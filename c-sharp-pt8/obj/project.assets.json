@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\c-sharp-pt6\\c-sharp-pt8\\c-sharp-pt8\\c-sharp-pt8.csproj",
+      "projectUniqueName": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\c-sharp-pt8\\c-sharp-pt8\\c-sharp-pt8.csproj",
       "projectName": "c-sharp-pt8",
-      "projectPath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\c-sharp-pt6\\c-sharp-pt8\\c-sharp-pt8\\c-sharp-pt8.csproj",
+      "projectPath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\c-sharp-pt8\\c-sharp-pt8\\c-sharp-pt8.csproj",
       "packagesPath": "C:\\Users\\jhona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\c-sharp-pt6\\c-sharp-pt8\\c-sharp-pt8\\obj\\",
+      "outputPath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\c-sharp-pt8\\c-sharp-pt8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jhona\\AppData\\Roaming\\NuGet\\NuGet.Config"
