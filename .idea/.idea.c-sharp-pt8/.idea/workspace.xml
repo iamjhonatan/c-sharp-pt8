@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d8692f-0a04-41d9-a8ef-1026f84fc001" name="Default Changelist" comment="" />
+    <list default="true" id="18d8692f-0a04-41d9-a8ef-1026f84fc001" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.c-sharp-pt8/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.c-sharp-pt8/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.c-sharp-pt8/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.c-sharp-pt8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.c-sharp-pt8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/c-sharp-pt8.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/Debug/net5.0/c-sharp-pt8.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/Debug/net5.0/c-sharp-pt8.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/Debug/net5.0/c-sharp-pt8.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/Debug/net5.0/c-sharp-pt8.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/Debug/net5.0/c-sharp-pt8.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/c-sharp-pt8.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/c-sharp-pt8.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/c-sharp-pt8.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c-sharp-pt8/obj/rider.project.restore.info" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/c-sharp-pt8/Class1.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="227CXxt0Wnsm89xzBT4hSuASy5V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,6 +47,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -31,13 +63,16 @@
       <option name="presentableId" value="Default" />
       <updated>1639179289554</updated>
       <workItem from="1639179327240" duration="38000" />
+      <workItem from="1639179607585" duration="797000" />
+      <workItem from="1639780868126" duration="910000" />
+      <workItem from="1641341261385" duration="1573000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
