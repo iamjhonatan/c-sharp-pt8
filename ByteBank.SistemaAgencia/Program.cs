@@ -24,7 +24,7 @@ namespace ByteBank.SistemaAgencia
             };
 
             lista.AdicionarVarios(contas);
-
+            
             for (int i = 0; i < lista.Tamanho; i++)
             {
                 ContaCorrente itemAtual = lista[i];
