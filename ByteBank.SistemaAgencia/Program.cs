@@ -5,18 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
 using ByteBank.Modelos.Funcionarios;
+using ByteBank.SistemaAgencia.Extensoes;
 
 namespace ByteBank.SistemaAgencia
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            ListaDeContaCorrente lista = new ListaDeContaCorrente();
+            var lista = new ListaDeContaCorrente();
             
-            ContaCorrente contaDoJhojho = new ContaCorrente(1111, 1222);
+            var contaDoJhojho = new ContaCorrente(1111, 1222);
 
-            ContaCorrente[] contas = new ContaCorrente[]
+            var contas = new ContaCorrente[]
             {
                 contaDoJhojho,
                 new ContaCorrente(874, 1239),
@@ -25,62 +26,65 @@ namespace ByteBank.SistemaAgencia
 
             lista.AdicionarVarios(contas);
             
-            for (int i = 0; i < lista.Tamanho; i++)
+            for (var i = 0; i < lista.Tamanho; i++)
             {
-                ContaCorrente itemAtual = lista[i];
+                var itemAtual = lista[i];
                 Console.WriteLine($"item na posição {i} = Conta {itemAtual.Numero}/{itemAtual.Agencia}");
             }
+            
+            
+            // Array de inteiros com 5 posições
 
-            Console.ReadLine();
-        }
+            var idades = new List<int>();
 
-        static void TestaArraydeContaCorrente()
-        {
-            ContaCorrente[] contas = new ContaCorrente[]
+            idades.AdicionarVarios(1, 5, 14, 25, 9);
+            
+            idades.Sort();
+
+            for (var i = 0; i < idades.Count; i++)
             {
-                new ContaCorrente(873, 1234),
-                new ContaCorrente(873, 1235),
-                new ContaCorrente(873, 1236),
-                new ContaCorrente(873, 1237),
-                new ContaCorrente(873, 1238),
-                new ContaCorrente(873, 1239),
-                new ContaCorrente(873, 12310)
+                Console.WriteLine(idades[i]);
+            }
+            
+            // === Ordenação de Strings ===
+
+            var nomes = new List<string>()
+            {
+                "Gui",
+                "Jho",
+                "Teste",
+                "Ana"
+            };
+            
+            nomes.Sort();
+
+            foreach (var nome in nomes)
+            {
+                Console.WriteLine(nome);
+            }
+            
+            
+            // Ordenação de Contas Corrente
+            
+            var contas2 = new List<ContaCorrente>()
+            {
+                new ContaCorrente(341, 57480),
+                new ContaCorrente(342, 45678),
+                new ContaCorrente(340, 48950),
+                new ContaCorrente(290, 18950)
             };
 
-            for (int indice = 0; indice < contas.Length; indice++)
+            contas2.Sort();
+
+            foreach (var conta in contas2)
             {
-                ContaCorrente contaAtual = contas[indice];
-                Console.WriteLine($"Conta {indice} {contaAtual.Numero}");
+                Console.WriteLine($"Conta número {conta.Numero}, ag. {conta.Agencia}");
             }
-        }
-        
-        static void TestaArrayInt()
-        {
-            // Array de inteiros com 5 posições
             
-            int [] idades = new int[6];
+            
+            
 
-            idades[0] = 15;
-            idades[1] = 28;
-            idades[2] = 35;
-            // idades[3] = 50;
-            // idades[4] = 55;
-            // idades[5] = 60;
-
-            int acumulador = 0;
-            for (int indice = 0; indice < idades.Length; indice++)
-            {
-                int idade = idades[indice];
-                
-                Console.WriteLine($"Acessando o array idades no indice {indice}");
-                Console.WriteLine($"Valor de idades [{indice}] = {idade}");
-
-                acumulador += idade;
-            }
-
-            int media = acumulador / idades.Length;
-            Console.WriteLine($"Média de idades = {media}");
-
+            Console.ReadLine();
             // ** Ctrl + k + c = comenta várias linhas
         }
     }
