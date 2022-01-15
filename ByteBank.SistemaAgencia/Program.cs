@@ -79,9 +79,9 @@ namespace ByteBank.SistemaAgencia
             
             //contas2.Sort(new ComparadorContaCorrentePorAgencia());
 
-            var contasOrdenadas = contas2.OrderBy(conta => conta.Numero);
+            var contasOrdenadas = contas2.OrderBy(conta => conta?.Numero ?? int.MaxValue);
 
-            foreach (var conta in contas2)
+            foreach (var conta in contas2.Where(conta => conta != null))
             {
                 Console.WriteLine($"Conta número {conta.Numero}, ag. {conta.Agencia}");
             }
