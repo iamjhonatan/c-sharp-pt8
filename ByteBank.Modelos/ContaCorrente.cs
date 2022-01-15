@@ -130,9 +130,9 @@ namespace ByteBank.Modelos
 
             if (!(obj is ContaCorrente outraConta)) return -1;
             
-            if (Numero < outraConta.Numero) return -1;
+            if (Saldo < outraConta.Saldo) return -1;
             
-            return Numero == outraConta.Numero ? 0 : 1;
+            return Saldo == outraConta.Saldo ? 0 : 1;
         }
     }
 
